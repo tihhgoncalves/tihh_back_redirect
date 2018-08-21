@@ -13,6 +13,5 @@ Para instalar, ai
   window.onload = function(e){ 
     tihh_back_redirect('https://app.monetizze.com.br/XXXXXX', '|Back');
   }
-  
 </script>
 ```
