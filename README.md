@@ -9,7 +9,9 @@ Para instalar, ai
   script.src = "https://cdn.rawgit.com/tihhgoncalves/tihh_back_redirect/485b7480/tihh_back_redirect.min.js";
   document.body.appendChild(script);
   
-  tihh_back_redirect('https://app.monetizze.com.br/XXXXXX', '|Back');
+  window.onload = function(e){ 
+    tihh_back_redirect('https://app.monetizze.com.br/XXXXXX', '|Back');
+  }
   
 </script>
 ```
