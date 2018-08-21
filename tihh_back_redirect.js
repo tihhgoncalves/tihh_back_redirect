@@ -3,8 +3,8 @@ function tihh_array_merge(a, b){
   for (var k in a){
       b[k] = a[k]
   }
+
   return b;
-  
 }
 
 function tihh_back_redirect(url, add_src) {
@@ -42,7 +42,6 @@ function tihh_back_redirect(url, add_src) {
     data_back[key] = val;
   });
 
-
   //unifica parâmetros get das 2 urls
   var data = tihh_array_merge(data_original, data_back);
 
@@ -67,7 +66,6 @@ function tihh_back_redirect(url, add_src) {
 
   back_url += '?' + pms;
 
-
   history.pushState({}, "", location.href);
 
   window.onpopstate = function () {
@@ -77,6 +75,6 @@ function tihh_back_redirect(url, add_src) {
 
   }
 
+  
   return back_url;
-
 }
