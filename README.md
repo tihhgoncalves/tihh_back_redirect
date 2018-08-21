@@ -5,6 +5,7 @@ Para instalar, ai
 
 ```javascript
 <script>
+  /* script de Back Redirect desenvolvido por @tihhgoncalves */
   var script = document.createElement('script');
   script.src = "https://cdn.rawgit.com/tihhgoncalves/tihh_back_redirect/485b7480/tihh_back_redirect.min.js";
   document.body.appendChild(script);
