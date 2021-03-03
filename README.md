@@ -1,7 +1,7 @@
 # JavaScript tihh_back_redirect
 Função que controla Back Redirect com manipulação do SRC.
 
-Para instalar, ai
+Para instalar:
 
 ```javascript
 <script type="text/javascript" charset="UTF-8">
